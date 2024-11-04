@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    }
+    .h1{
+        color: white;
+        background-color: black;
+        text-align: center;
+        margin: -25px 0-px -25px;
+        padding: 30px 10px 0px;
+    }
+    .h1 ul{
+        margin-left: -50px;
+    }
+    .h1 ul li{
+        display: inline;
+        margin:10px 5px 10px;
+    }
+    .h1 ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .h1 ul li a:hover{
+        color: yellow;
+    }
+    header {
+        background-color: white;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color:black;
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color:rgb(2, 179, 2);
+    }
+    nav ul li a:focus{
+        color:blueviolet;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    section {
+        margin: 20px 0;
+    }
+    .heading{
+        text-align: center;
+        text-decoration: underline;
+    }
+    #videos{
+        align-content: center;
+        text-align: center;
+        padding: 10px 30px 30px;
+        
+    }
+    #videos video{
+        width:100%;
+        border-radius: 5px;
+        border-color: black;
+        border-style: solid;
+    }
+    #videos a button{
+        width: 100%;
+        background-color: black;
+        color: white;
+        padding: 5px 5px 5px;
+        margin: 10px 5px 5px;
+    }
+    #videos a button:hover{
+        background-color: yellow;
+        color: black;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background: black;
+        color: white;
+    }
